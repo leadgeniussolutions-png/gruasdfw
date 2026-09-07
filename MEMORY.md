@@ -73,7 +73,12 @@
   - Transparent pricing table targeting `gruas economicas cerca de mi`.
   - Local bilingual testimonials from I-35E, Fort Worth, and Arlington.
   - Interactive FAQ accordion with `data-speakable="true"`.
-- **Hermes Agent Audit & Optimizations (Score 99/100):**
+- **Hermes Agent Audit & Mandatory Review Standards:**
+  - **Telephony & HighLevel Forwarding Audit (Zero Dummy Numbers Rule):**
+    - MUST verify phone number is an active, real US number matching the target market area code (e.g. `817` for DFW).
+    - ZERO placeholder / dummy numbers allowed (`(555)`, `(123)`, `000-0000`, or unassigned dead lines).
+    - HighLevel (GHL) Routing Check: The tracking number must be verified inside HighLevel to ensure active call forwarding is mapped to a real live destination number (contractor phone, agency dispatcher, or active voice AI dispatch agent). Never leave a number unrouted.
+    - 100% Sitewide Telephony Consistency: All visual text and `tel:+1...` hrefs across header, hero, sticky mobile bar, CTAs, footer, Schema JSON-LD `telephone`, and `llms.txt` must match identically.
   - Semantic W3C FAQ fix: `<h3><button><span>` wrapping to eliminate invalid heading nesting.
   - Schema Trinity enriched with Interstate 35W (`Q1544837`) and Interstate 30 (`Q94960`) Wikidata entities in `areaServed`.
   - Formal `SpeakableSpecification` schema added to JSON-LD targeting `.faq-answer` and `.hero-lead`.
