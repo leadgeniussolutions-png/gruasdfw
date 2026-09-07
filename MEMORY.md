@@ -84,7 +84,7 @@
   - Formal `SpeakableSpecification` schema added to JSON-LD targeting `.faq-answer` and `.hero-lead`.
   - ARIA tab roles and `aria-selected` state syncing added to Vehicle Selector.
   - Highway corridor coverage expanded with `SH-183 (Airport Freeway • Mid-Cities)`.
-  - Dispatch phone `(817) 904-3722` integrated directly into `llms.txt` for AI assistant citation.
+  - Dispatch phone `(817) 632-2368` integrated directly into `llms.txt` for AI assistant citation.
 - **Production Deployment & Full Indexing Protocol (2026-09-07):**
   - **GitHub Repo:** `https://github.com/leadgeniussolutions-png/gruasdfw` (main branch).
   - **Cloudflare Pages:** Project `gruasdfw` deployed on account `d86a17244848414e5743730dae582eed`.
