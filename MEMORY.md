@@ -80,12 +80,27 @@
   - ARIA tab roles and `aria-selected` state syncing added to Vehicle Selector.
   - Highway corridor coverage expanded with `SH-183 (Airport Freeway • Mid-Cities)`.
   - Dispatch phone `(817) 904-3722` integrated directly into `llms.txt` for AI assistant citation.
-- **Production Deployment & Instant Indexing (2026-09-07):**
+- **Production Deployment & Full Indexing Protocol (2026-09-07):**
   - **GitHub Repo:** `https://github.com/leadgeniussolutions-png/gruasdfw` (main branch).
   - **Cloudflare Pages:** Project `gruasdfw` deployed on account `d86a17244848414e5743730dae582eed`.
   - **Live Custom Domains:** Apex `https://gruasdfw.com/` and `https://www.gruasdfw.com/` active with Google Trust Services SSL certificates.
-  - **IndexNow Verification:** Key `c7e29b14f8264789b72a9810a92d83e1` deployed at `https://gruasdfw.com/c7e29b14f8264789b72a9810a92d83e1.txt`.
-  - **Crawl Trigger:** Submitted to `api.indexnow.org` (HTTP 202) and `bing.com/indexnow` (HTTP 200) for rapid search engine discovery.
+  - **Tier 1 — IndexNow Instant Discovery:**
+    - Key `c7e29b14f8264789b72a9810a92d83e1` deployed at `https://gruasdfw.com/c7e29b14f8264789b72a9810a92d83e1.txt`.
+    - Pings submitted to `api.indexnow.org` (HTTP 202) and `bing.com/indexnow` (HTTP 200).
+  - **Tier 2 — Google Search Console (GSC) [MANDATORY]:**
+    - Verification Token: `google-site-verification=TMMjNSsYoiPe8bDHR_SP7o-v5ZUgU-NxBxvcumm_ZME`
+    - Dual verification:
+      - DNS TXT record deployed on Cloudflare DNS for `gruasdfw.com`.
+      - HTML `<meta>` tag deployed in `<head>` of `index.html`.
+    - Properties verified as `siteOwner`:
+      - `sc-domain:gruasdfw.com` (Domain property)
+      - `https://gruasdfw.com/` (URL-prefix property)
+    - Co-Owner access granted to agency master account: `leadgeniussolutions@gmail.com`.
+    - Sitemap submission: `https://gruasdfw.com/sitemap.xml` submitted to both GSC properties (Last Downloaded: `2026-09-07T04:31:36.948Z`, Errors: 0).
+  - **Tier 3 — Google Web Search Indexing API:**
+    - Service Account: `leadgenius-solutions@unified-runner-456102-g5.iam.gserviceaccount.com`
+    - `URL_UPDATED` notification dispatched and accepted (HTTP 200) for `https://gruasdfw.com/`.
+
 
 
 
