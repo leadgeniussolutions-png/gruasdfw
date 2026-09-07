@@ -80,5 +80,12 @@
   - ARIA tab roles and `aria-selected` state syncing added to Vehicle Selector.
   - Highway corridor coverage expanded with `SH-183 (Airport Freeway • Mid-Cities)`.
   - Dispatch phone `(817) 904-3722` integrated directly into `llms.txt` for AI assistant citation.
+- **Production Deployment & Instant Indexing (2026-09-07):**
+  - **GitHub Repo:** `https://github.com/leadgeniussolutions-png/gruasdfw` (main branch).
+  - **Cloudflare Pages:** Project `gruasdfw` deployed on account `d86a17244848414e5743730dae582eed`.
+  - **Live Custom Domains:** Apex `https://gruasdfw.com/` and `https://www.gruasdfw.com/` active with Google Trust Services SSL certificates.
+  - **IndexNow Verification:** Key `c7e29b14f8264789b72a9810a92d83e1` deployed at `https://gruasdfw.com/c7e29b14f8264789b72a9810a92d83e1.txt`.
+  - **Crawl Trigger:** Submitted to `api.indexnow.org` (HTTP 202) and `bing.com/indexnow` (HTTP 200) for rapid search engine discovery.
+
 
 
